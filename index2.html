@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Angolan Community of Maine</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --vermelho: #CE1126;
+      --amarelo: #FFD100;
+      --preto: #000000;
+      --azul-apoio: #1B365D;
+      --cinza-secundario: #4A5568;
+      --branco-suave: #FAFAFA;
+      --verde-sucesso: #2D7A3E;
+    }
+  </style>
+</head>
+
+<body class="bg-[var(--branco-suave)] text-[var(--preto)] font-sans">
+
+  <!-- NAVBAR -->
+  <header class="bg-[var(--vermelho)] text-white shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold tracking-wide">LOGO</h1>
+      <nav class="space-x-6">
+        <a href="#sobre" class="hover:text-[var(--amarelo)] transition">Sobre</a>
+        <a href="#projetos" class="hover:text-[var(--amarelo)] transition">Projetos</a>
+        <a href="#ajudar" class="hover:text-[var(--amarelo)] transition">Como Ajudar</a>
+        <a href="#contato" class="hover:text-[var(--amarelo)] transition">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="bg-[var(--azul-apoio)] text-white py-24 text-center">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold mb-6">Juntos, transformamos vidas</h2>
+      <p class="text-lg mb-8 text-[var(--amarelo)]">Cada gesto de solidariedade faz o mundo um lugar melhor.</p>
+      <a href="#ajudar" class="bg-[var(--amarelo)] text-[var(--preto)] font-semibold px-8 py-3 rounded-full hover:bg-[var(--verde-sucesso)] hover:text-white transition">
+        Faça uma Doação
+      </a>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="py-20 max-w-6xl mx-auto px-4">
+    <div class="text-center mb-12">
+      <h3 class="text-3xl font-bold text-[var(--azul-apoio)] mb-4">Quem Somos</h3>
+      <p class="text-[var(--cinza-secundario)] max-w-2xl mx-auto">Somos uma organização dedicada a promover dignidade, inclusão e esperança para comunidades em vulnerabilidade social.</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-lg p-6 rounded-2xl">
+        <h4 class="text-xl font-semibold mb-2 text-[var(--vermelho)]">Missão</h4>
+        <p>Transformar realidades por meio de projetos sociais que promovam educação, saúde e oportunidades.</p>
+      </div>
+      <div class="bg-white shadow-lg p-6 rounded-2xl">
+        <h4 class="text-xl font-semibold mb-2 text-[var(--vermelho)]">Visão</h4>
+        <p>Ser referência em impacto social sustentável, inspirando mais pessoas a agirem pelo bem coletivo.</p>
+      </div>
+      <div class="bg-white shadow-lg p-6 rounded-2xl">
+        <h4 class="text-xl font-semibold mb-2 text-[var(--vermelho)]">Valores</h4>
+        <p>Empatia, transparência, compromisso e união guiam cada ação que realizamos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="py-20 bg-[var(--branco-suave)]">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold text-[var(--azul-apoio)] mb-12">Nossos Projetos</h3>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+          <h4 class="text-xl font-semibold text-[var(--verde-sucesso)] mb-2">Educação para Todos</h4>
+          <p class="text-[var(--cinza-secundario)]">Aulas e oficinas gratuitas para crianças e adolescentes em situação de vulnerabilidade.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+          <h4 class="text-xl font-semibold text-[var(--verde-sucesso)] mb-2">Saúde Comunitária</h4>
+          <p class="text-[var(--cinza-secundario)]">Atendimento básico e campanhas de prevenção em comunidades carentes.</p>
+        </div>
+        <div class="bg-white shadow-md rounded-2xl p-6 hover:shadow-xl transition">
+          <h4 class="text-xl font-semibold text-[var(--verde-sucesso)] mb-2">Futuro Sustentável</h4>
+          <p class="text-[var(--cinza-secundario)]">Iniciativas de reflorestamento e capacitação ambiental para jovens.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMO AJUDAR -->
+  <section id="ajudar" class="py-20 bg-[var(--azul-apoio)] text-white">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-8 text-[var(--amarelo)]">Como Você Pode Ajudar</h3>
+      <p class="max-w-2xl mx-auto mb-8 text-[var(--branco-suave)]">Existem diversas formas de apoiar nossa causa — seja doando, se tornando voluntário ou divulgando nosso trabalho.</p>
+
+      <div class="flex flex-col md:flex-row justify-center gap-6">
+        <a href="#" class="bg-[var(--amarelo)] text-[var(--preto)] font-semibold px-8 py-3 rounded-full hover:bg-[var(--verde-sucesso)] hover:text-white transition">
+          Fazer uma Doação
+        </a>
+        <a href="#" class="border border-[var(--amarelo)] text-[var(--amarelo)] font-semibold px-8 py-3 rounded-full hover:bg-[var(--amarelo)] hover:text-[var(--preto)] transition">
+          Ser Voluntário
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="py-20 max-w-6xl mx-auto px-4 text-center">
+    <h3 class="text-3xl font-bold text-[var(--azul-apoio)] mb-4">Fale Conosco</h3>
+    <p class="text-[var(--cinza-secundario)] mb-8">Quer saber mais? Entre em contato conosco!</p>
+
+    <form class="max-w-lg mx-auto text-left space-y-4">
+      <input type="text" placeholder="Seu nome" class="w-full p-3 border rounded-lg" required>
+      <input type="email" placeholder="Seu e-mail" class="w-full p-3 border rounded-lg" required>
+      <textarea placeholder="Sua mensagem" rows="4" class="w-full p-3 border rounded-lg"></textarea>
+      <button type="submit" class="w-full bg-[var(--vermelho)] text-white font-semibold py-3 rounded-lg hover:bg-[var(--verde-sucesso)] transition">
+        Enviar Mensagem
+      </button>
+    </form>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="bg-[var(--preto)] text-[var(--branco-suave)] py-8 text-center">
+    <p>&copy; 2025 Instituição Esperança. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>

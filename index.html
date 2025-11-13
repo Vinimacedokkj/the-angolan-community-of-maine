@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/main2.css">
+    <link rel="shortcut icon" href="/assets/logo-icon.ico" type="image/x-icon">
 </head>
 <body>
     <!-- Navegação -->
@@ -17,20 +19,62 @@
             <div class="nav-wrapper">
                 <a href="index.html" class="logo">
                     <img src="assets/img/logo.jpg" alt="Logo Comunidade Angolana do Maine" class="logo-img">
-                    <span class="logo-text">Comunidade Angolana do Maine</span>
+                    <!-- <span class="logo-text">Comunidade Angolana do Maine</span> -->
                 </a>
-                <button class="mobile-menu-toggle" aria-label="Menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
+                <div class="nav-right">
+                    <div class="language-selector">
+                        <button class="language-btn" aria-label="Selecionar idioma">
+                            <span class="language-icon">🌐</span>
+                            <span class="language-current">PT</span>
+                            <span class="language-arrow">▼</span>
+                        </button>
+                        <div class="language-dropdown">
+                            <a href="#" class="language-option active">
+                                <span class="language-flag">🇵🇹</span>
+                                <span>Português</span>
+                            </a>
+                            <a href="#" class="language-option">
+                                <span class="language-flag">🇺🇸</span>
+                                <span>English</span>
+                            </a>
+                            <a href="#" class="language-option">
+                                <span class="language-flag">🇪🇸</span>
+                                <span>Español</span>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="mobile-menu-toggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
                 <ul class="nav-menu">
                     <li><a href="index.html" class="active">Início</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li class="nav-item-dropdown">
+                        <a class="nav-link-dropdown">Sobre <span class="dropdown-arrow">▼</span></a>
+                        <ul class="nav-dropdown">
+                            <!-- <li><a href="sobre.html">Sobre Nós</a></li> -->
+                            <li><a href="sobre.html">Sobre nós</a></li>
+                            <li><a href="nosso-time.html">Nosso Time</a></li>
+                            <li><a href="membros.html">Membros</a></li>
+                            <li><a href="carreiras.html">Carreiras</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item-dropdown">
+                        <a href="informacoes.html" class="nav-link-dropdown">Informações <span class="dropdown-arrow">▼</span></a>
+                        <ul class="nav-dropdown">
+                            <!-- <li><a href="sobre.html">Sobre Nós</a></li> -->
+                            <li><a href="informacoes.html">Eventos</a></li>
+                            <li><a href="informacoes.html">Notícias</a></li>
+                            <li><a href="duvidas.html">Dúvidas/Ajuda</a></li>
+                        </ul>
+                    </li>
                     <li><a href="servicos.html">Serviços</a></li>
-                    <li><a href="eventos.html">Eventos</a></li>
-                    <li><a href="noticias.html">Notícias</a></li>
                     <li><a href="contato.html">Contato</a></li>
+                    <li class="nav-donation">
+                        <a href="doacao.html" class="btn-donation">Doação</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -45,6 +89,65 @@
                 <div class="hero-buttons">
                     <a href="servicos.html" class="btn btn-primary">Nossos Serviços</a>
                     <a href="sobre.html" class="btn btn-secondary">Conheça-nos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notícias Recentes -->
+    <section class="news-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Notícias Recentes</h2>
+                <p class="section-description">Fique por dentro das últimas novidades da nossa comunidade.</p>
+            </div>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-date">15 de Janeiro, 2024</div>
+                    <h3 class="news-title">Nova Parceria com Organizações Locais Amplia Apoio à Comunidade</h3>
+                    <p class="news-excerpt">A Comunidade Angolana do Maine anunciou hoje uma importante parceria com organizações locais que permitirá expandir os serviços de distribuição de alimentos e gestão de casos para mais famílias em necessidade.</p>
+                    <a href="noticias.html" class="news-link">Ler mais →</a>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">8 de Janeiro, 2024</div>
+                    <h3 class="news-title">Celebração de Ano Novo Reúne Mais de 200 Membros da Comunidade</h3>
+                    <p class="news-excerpt">O evento de Ano Novo da Comunidade Angolana do Maine foi um grande sucesso, reunindo famílias para celebrar com música tradicional, comida típica e momentos de união e esperança para o novo ano.</p>
+                    <a href="noticias.html" class="news-link">Ler mais →</a>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">22 de Dezembro, 2023</div>
+                    <h3 class="news-title">Programa de Apoio Educacional Inicia Novo Semestre</h3>
+                    <p class="news-excerpt">Iniciamos um novo ciclo do programa de apoio educacional, oferecendo aulas de inglês, tutoria para crianças e jovens, e workshops sobre integração cultural para novos imigrantes.</p>
+                    <a href="noticias.html" class="news-link">Ler mais →</a>
+                </article>
+            </div>
+            <div class="section-cta">
+                <a href="noticias.html" class="btn btn-outline">Ver Todas as Notícias</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- O Que Fazemos -->
+    <section class="what-we-do">
+        <div class="container">
+            <div class="what-we-do-content">
+                <div class="what-we-do-text">
+                    <h2 class="what-we-do-title">O Que Fazemos</h2>
+                    <div class="what-we-do-accent"></div>
+                    <p class="what-we-do-description">
+                        Na <strong>Comunidade Angolana do Maine</strong>, nossa missão é melhorar as condições legais, sociais e econômicas para imigrantes angolanos no estado do Maine.
+                    </p>
+                    <p class="what-we-do-description">
+                        Trabalhamos para fortalecer e unir nossa comunidade através de <strong>serviços essenciais</strong>, <strong>eventos culturais</strong> e <strong>gestão de casos</strong>, promovendo a inclusão e integração dos imigrantes angolanos.
+                    </p>
+                    <blockquote class="what-we-do-quote">
+                        "Melhorando vidas enquanto fortalecemos o Maine – através de defesa, compartilhamento de informações e colaboração com e entre nossa comunidade."
+                    </blockquote>
+                    <a href="sobre.html" class="btn btn-primary what-we-do-btn">SAIBA MAIS</a>
+                </div>
+                <div class="what-we-do-image">
+                    <img src="assets/img/logo.jpg" alt="Comunidade Angolana do Maine" class="what-we-do-img">
+                    <div class="what-we-do-decoration"></div>
                 </div>
             </div>
         </div>

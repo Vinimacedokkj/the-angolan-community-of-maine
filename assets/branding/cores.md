@@ -1,11 +1,13 @@
-Cores Principais:
-
-Vermelho (#CE1126) e Amarelo (#FFD100) - das cores da bandeira de Angola, usados em destaques e elementos importantes
-Preto (#000000) - para criar contraste sofisticado e remeter à bandeira
+Cores da bandeira da Angola:
+(#CC092F)
+(#FFCB00)
+(#000000) - (preto) Cor basica
 
 Cores de Apoio:
 
-Azul marinho profundo (#1B365D) - inspirado na bandeira do Maine, criando conexão com o estado
-Branco/Off-white (#FAFAFA) - backgrounds limpos e legibilidade
-Cinza médio (#4A5568) - textos secundários
-Verde esperança (#2D7A3E) - elementos de sucesso e crescimento
+(#093372) - Cor principal, 
+(#4A5568) - textos secundários
+(#FAFAFA) - backgrounds limpos e legibilidade
+(#2D7A3E) - elementos de sucesso e crescimento
+
+#CC092F
